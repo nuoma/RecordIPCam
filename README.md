@@ -1,7 +1,7 @@
 # RecordIPCam
 Read video stream from Oncam and write video.
 
-Usage:
+## Usage
 ./record ip VideoName
 eg ./record 192.168.1.50 id1
 press ESC to end recording
