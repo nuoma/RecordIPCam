@@ -17,3 +17,4 @@ Remember to change cam setting and parameters in code. Current under primary str
 ## Issue
 Created a 2hour video in MJPEG and .avi, the file seems to have partial corruption.  
 Possibly better to use H.264 codec with .mp4(over.avi)?
+Or caused by recording 3 videos simultaneously?
