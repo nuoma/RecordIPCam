@@ -5,8 +5,12 @@ Read video stream from Oncam and write video.
 ```sh
 ./record ip VideoName
 ```
-eg ./record 192.168.1.50 id1  
+Example usage in Torg 1100.
+```sh
+./record 192.168.1.50 id1  
+```
 press ESC to end recording  
-Remember to change cam setting and parameters in code  
-Current 2MP H264 30fps  
-Press anykey to continue or ESC to quit  
+
+## Camera Parameters
+Remember to change cam setting and parameters in code. Current under primary stream, high-speed sensor mode, 2MP, H264, 30fps, 100% Quality.  
+ 
