@@ -1,10 +1,23 @@
 # RecordIPCam
 Read video stream from Oncam and write video.
 
-## Usage
+## Building
+You will need OpenCV 3 (not version 2.4.11 or anything previous). It can be downloaded from the
+[OpenCV download page](http://opencv.org/downloads.html).   
+Once installed, build from the terminal:
+
 ```sh
-./record ip VideoName
+$ mkdir build        # Create a build directory
+$ cd build
+$ cmake ..           # Use CMake to generate the Makefile
+$ make -j20           # Compiles four files in parallel, best for quad-core computers
 ```
+
+## Usage
+
+The syntax for running the program is `./record <ip> <VideoName>`, where `<ip>` is the camera's IP address and `<VideoName>`
+is the name for the recorded video.  
+
 Example usage in Torg 1100.
 ```sh
 ./record 192.168.1.50 id1  
