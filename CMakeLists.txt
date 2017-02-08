@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(record-IP-Cam)
+find_package(OpenCV REQUIRED)
+file(GLOB_RECURSE SOURCES src/*.cpp)
+add_executable(record ${SOURCES})
+target_link_libraries(record ${OpenCV_LIBS})
